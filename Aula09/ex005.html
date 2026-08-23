@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(105, 183, 255);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em Javascript</p>
+    <div>Clique em mim</div>
+    
+    <script>
+        //DOM - Document Object Model
+        window.document.write("Olá mundo!<br/>")
+        window.document.write(window.document.charset)
+        window.document.write("<br/>")
+        window.document.write(window.navigator.appName)
+        window.document.write("<br/>")
+        window.document.write(window.document.URL)
+        window.document.write("<br/>")
+
+        //você pode selecionar objetos por: marca, id, nome, classe, seletor
+        //por marca: getElementsByTagName() p/ mais de um objeto
+    </script>
+</body>
+</html>
