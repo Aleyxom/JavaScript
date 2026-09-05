@@ -13,6 +13,9 @@ function adicionar() {
     } else {
         alert("Valor informado é inválido ou já foi adicionado!")
     }
+
+    num.value = ""
+    num.focus()
 }
 
 function analisar() {
